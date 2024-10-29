@@ -38,24 +38,25 @@ cd real-time-chat-reverb
 ``` 
 
 
-2. **Install dependencies:**:
+### 2. Install dependencies:
 ```bash
 composer install
 ```
 
 
-3. **Set up your environment file:**
+### 3. Set up your environment file:
 ```bash
 cp .env.example .env
 ```
 
 
-4. **Generate application key:**
+### 4. Generate application key:
 ```bash
 php artisan key:generate
 ```
 
-5. **Set up the database:**
+### 5. Set up the database:
+
 Create a new MySQL database (or any other supported database) and configure the connection in your **.env** file:
 
 ```env
@@ -64,38 +65,38 @@ DB_USERNAME=your_database_username
 DB_PASSWORD=your_database_password```
 ```
 
-6. **Run migrations:**
+### 6. Run migrations:
 ```bash
 php artisan migrate 
 ```
 
 
-7. **Install Livewire:**
+### 7. Install Livewire:
 ```bash
 composer require livewire/livewire
 ```
 
    
-8. **Install Laravel Reverb:**
+### 8. Install Laravel Reverb:
 ```bash
 composer require laravel/reverb
 ```
 
 
-9. **Start the Reverb server:**
+### 9. Start the Reverb server:
 ```bash
 php artisan reverb:start
 ```
 
 
-10. **Install frontend dependencies:**
+### 10. Install frontend dependencies:
 ```bash
 npm install
 npm run dev
 ```
 
 
-11. **Start the Laravel server:**
+### 11. Start the Laravel server:
 ```bash
 php artisan serve
 ```
