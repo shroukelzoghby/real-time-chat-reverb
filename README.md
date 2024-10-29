@@ -23,63 +23,65 @@ This is a real-time chat application built using Laravel, Livewire, and Reverb. 
 
 Follow these steps to set up the application locally:
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/shroukelzoghby/real-time-chat-reverb.git
-   cd realtime-chat-laravel-reverb
----
+### 1. Clone the repository:
+
+```bash
+git clone https://github.com/shroukelzoghby/real-time-chat-reverb.git
+cd real-time-chat-reverb
+``` 
+
 
 2. **Install dependencies:**:
-   ```bash
+```bash
    composer install
+```
 
----
 
 3. **Set up your environment file:**
-   ```bash
+```bash
    cp .env.example .env
+```
 
----
 
 4. **Generate application key:**
-   ```bash
+```bash
     php artisan key:generate
+```
 
----
 
 5. **Run migrations:**
-   ```bash
+```bash
     php artisan migrate 
+```
 
----
 
 6. **Install Livewire:**
-   ```bash
+```bash
    composer require livewire/livewire
+```
 
----
    
 7. **Install Laravel Reverb:**
-   ```bash
+```bash
    composer require laravel/reverb
+```
 
----
 
 8. **Start the Reverb server:**
-   ```bash
+```bash
    php artisan reverb:start
+```
 
----
 
 9. **Install frontend dependencies:**
-   ```bash
+```bash
    npm install
    npm run dev
+```
 
----
 
 10. **Start the Laravel server:**
-   ```bash
+```bash
    php artisan serve
 ```
    
