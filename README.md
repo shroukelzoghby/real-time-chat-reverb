@@ -55,39 +55,47 @@ cp .env.example .env
 php artisan key:generate
 ```
 
+5. **Set up the database:**
+Create a new MySQL database (or any other supported database) and configure the connection in your **.env** file:
 
-5. **Run migrations:**
+```env
+DB_DATABASE=your_database_name
+DB_USERNAME=your_database_username
+DB_PASSWORD=your_database_password```
+```
+
+6. **Run migrations:**
 ```bash
 php artisan migrate 
 ```
 
 
-6. **Install Livewire:**
+7. **Install Livewire:**
 ```bash
 composer require livewire/livewire
 ```
 
    
-7. **Install Laravel Reverb:**
+8. **Install Laravel Reverb:**
 ```bash
 composer require laravel/reverb
 ```
 
 
-8. **Start the Reverb server:**
+9. **Start the Reverb server:**
 ```bash
 php artisan reverb:start
 ```
 
 
-9. **Install frontend dependencies:**
+10. **Install frontend dependencies:**
 ```bash
 npm install
 npm run dev
 ```
 
 
-10. **Start the Laravel server:**
+11. **Start the Laravel server:**
 ```bash
 php artisan serve
 ```
