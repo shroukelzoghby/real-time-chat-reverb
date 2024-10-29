@@ -2,7 +2,7 @@
     {{-- The Master doesn't talk, he acts. --}}
 
         <form wire:submit="sendMessage">
-            <x-text-input type="text" wire:model="newMessage"/>
+            <x-text-input type="text" wire:model="message"/>
             <button type="submit">Send</button>
         </form>
 
