@@ -3,6 +3,13 @@
 This is a real-time chat application built using Laravel, Livewire, and Reverb. The application allows users to join chat rooms and send messages instantly.
 
 ---
+## Table of Contents
+
+- [Features](#features)
+- [Technologies Used](#technologies)
+- [Installation](#installation)
+
+---
 ## Features
 - **Real-Time Messaging**: Instant message delivery in chat rooms.
 - **User Authentication**: Secure login and registration using Laravel Breeze.
@@ -10,7 +17,7 @@ This is a real-time chat application built using Laravel, Livewire, and Reverb. 
 
 ---
 
-## Technologies Used
+## Technologies
 
 - **Backend**: Laravel 11
 - **Frontend**: Livewire and Blade templates with Bootstrap
@@ -33,56 +40,56 @@ cd real-time-chat-reverb
 
 2. **Install dependencies:**:
 ```bash
-   composer install
+composer install
 ```
 
 
 3. **Set up your environment file:**
 ```bash
-   cp .env.example .env
+cp .env.example .env
 ```
 
 
 4. **Generate application key:**
 ```bash
-    php artisan key:generate
+php artisan key:generate
 ```
 
 
 5. **Run migrations:**
 ```bash
-    php artisan migrate 
+php artisan migrate 
 ```
 
 
 6. **Install Livewire:**
 ```bash
-   composer require livewire/livewire
+composer require livewire/livewire
 ```
 
    
 7. **Install Laravel Reverb:**
 ```bash
-   composer require laravel/reverb
+composer require laravel/reverb
 ```
 
 
 8. **Start the Reverb server:**
 ```bash
-   php artisan reverb:start
+php artisan reverb:start
 ```
 
 
 9. **Install frontend dependencies:**
 ```bash
-   npm install
-   npm run dev
+npm install
+npm run dev
 ```
 
 
 10. **Start the Laravel server:**
 ```bash
-   php artisan serve
+php artisan serve
 ```
    
 
